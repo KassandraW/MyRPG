@@ -8,8 +8,8 @@ namespace Engine.Models
 {
     public class Player
     {
-        public string Name { get; set; }
-        public string CharacterClass { get; set; }
+        public string? Name { get; set; }
+        public string? CharacterClass { get; set; }
         public int Hitpoints { get; set; }
         public int ExperiencePoints { get; set; }
         public int Level { get; set; }
